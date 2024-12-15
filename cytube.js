@@ -292,7 +292,7 @@ $( document ).ready( function() {
 
 
 
-	let scheduleTop_html = `
+	let scheduleTop_html = {
 	<div class="slider_container">
 		<div class="slider_div" id="slider1">
 			<div class="slider">
@@ -312,7 +312,7 @@ $( document ).ready( function() {
 			</div>
 		</div>
 	</div>
-	`
+	}
 	$('.navbar').append(scheduleTop_html);
 
 
