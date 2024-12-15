@@ -223,7 +223,7 @@ $( document ).ready( function() {
 	
 
 	$("#messagebuffer").animate({ scrollTop: $("#messagebuffer").height() },100);
-	$(".navbar-brand").attr("href", "https://cytube.implying.fun/c/dotagall");
+	$(".navbar-brand").attr("href", "https://cytube.implying.fun/c/karinagall");
 
 	$("#chatline").attr("placeholder", "!명령어를 입력해보세요");
 	$("#chatline").attr("onkeyup", "submit_check(3000)");
