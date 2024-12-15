@@ -163,7 +163,7 @@ $('#leftcontrols').append(btnopt_html);
 
 
 
-let command_html = `<ul class='list_rule'><li>!일정</li><li>!결과</li><li>!청소</li><li>!규칙</li><li>!도갤</li></ul>`
+let command_html = `<ul class='list_rule'><li>!일정</li><li>!결과</li><li>!청소</li><li>!규칙</li><li>!카리나갤</li></ul>`
 let todayschedule_html = `
 	<table class="schedule-table">
   <thead>
@@ -194,7 +194,7 @@ let preschedule_html = `
 			<button class="btn_chatmenu_close" onClick="$('#popup_preschedule').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
-		<iframe src="https://s3.ap-northeast-2.amazonaws.com/cytube.v2/index.html?ver=1.1"></iframe>
+		<iframe src="fotmob.com"></iframe>
 		</div>
 </div>
 `
@@ -223,7 +223,7 @@ $( document ).ready( function() {
 	
 
 	$("#messagebuffer").animate({ scrollTop: $("#messagebuffer").height() },100);
-	$(".navbar-brand").attr("href", "https://cytube.implying.fun/c/dotagall");
+	$(".navbar-brand").attr("href", "https://cytube.implying.fun/c/karinagall");
 
 	$("#chatline").attr("placeholder", "!명령어를 입력해보세요");
 	$("#chatline").attr("onkeyup", "submit_check(3000)");
@@ -308,7 +308,7 @@ $( document ).ready( function() {
 					  `).join('')}
 
 				</ul>
-				<a href="https://liquipedia.net/dota2/ESL_One/Bangkok/2024" target="_blank" class="link">전체 토너먼트 일정 보기</a>
+				<a href="fotmob.com" target="_blank" class="link">전체 토너먼트 일정 보기</a>
 			</div>
 		</div>
 	</div>
@@ -671,8 +671,8 @@ $( document ).ready( function() {
 		"<div class='tab_menu_wrapper'>" +
 			"<button class='tab_nav_btn left'>&lt;</button>" +
 			"<ul class='tab_menu'>" +
-				"<li class='active'><a href='javascript:;' rel='tab_1'>기본콘</a></li>" +
-				"<li><a href='javascript:;' rel='tab_4'>더블콘</a></li>" +
+				"<li class='active'><a href='javascript:;' rel='tab_1'>무현콘</a></li>" +
+				"<li><a href='javascript:;' rel='tab_4'>흥민콘</a></li>" +
 				"<li><a href='javascript:;' rel='tab_3'>도타콘</a></li>" +
 				"<li><a href='javascript:;' rel='tab_2'>응원콘</a></li>" +
 				"<li><a href='javascript:;' rel='tab_5'>수용소</a></li>" +
@@ -983,9 +983,9 @@ function submit_check() {
       $("#chatline").val("");
       $("#messagebuffer").append("<ol class='list_rule'><li>좆목, 네임드화 및 갤러리내 고정닉을 언급하는 행위</li><li>수위를 넘어선 과도한 욕설 및 정치드립</li><li>경기 결과 스포일러</li><li>배팅충</li></ol>");
       $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
-    } else if (chatline.value == "!도갤") {
+    } else if (chatline.value == "!카리나갤") {
       $("#chatline").val("");
-      window.open("https://gall.dcinside.com/mgallery/board/lists?id=dota");
+      window.open("https://gall.dcinside.com/mgallery/board/lists?id=karina0411");
     } else if (chatline.value == "!명령어") {
       $("#chatline").val("");
       $("#messagebuffer").append(command_html);
