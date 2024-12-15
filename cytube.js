@@ -194,7 +194,7 @@ let preschedule_html = `
 			<button class="btn_chatmenu_close" onClick="$('#popup_preschedule').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
-		<iframe src="https://s3.ap-northeast-2.amazonaws.com/cytube.v2/index.html?ver=1.1"></iframe>
+		<iframe src="https://www.fotmob.com/ko"></iframe>
 		</div>
 </div>
 `
@@ -308,7 +308,7 @@ $( document ).ready( function() {
 					  `).join('')}
 
 				</ul>
-				<a href="https://liquipedia.net/dota2/ESL_One/Bangkok/2024" target="_blank" class="link">전체 토너먼트 일정 보기</a>
+				<a href="https://www.fotmob.com/ko" target="_blank" class="link">일정</a>
 			</div>
 		</div>
 	</div>
