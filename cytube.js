@@ -151,13 +151,13 @@ $('#leftcontrols').append(btnopt_html);
 
 
 
-let command_html = `<ul class='list_rule'><li>!결과</li><li>!청소</li><li>!규칙</li><li>!카리나갤</li></ul>`
+let command_html = `<ul class='list_rule'><li>!경기</li><li>!청소</li><li>!규칙</li><li>!카리나갤</li></ul>`
 
 
-let preschedule_html = `
-<div id="popup_preschedule" class="popup_iframe" style="display:none; max-width:720px;">
+let todayschedule_html = `
+<div id="popup_todayschedule" class="popup_iframe" style="display:none; max-width:720px;">
 		<div class="popup_title">
-			<h6>최근 경기결과</h6>
+			<h6>경기 살펴보기/h6>
 			<button class="btn_chatmenu_close" onClick="$('#popup_preschedule').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
