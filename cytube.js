@@ -292,7 +292,7 @@ $( document ).ready( function() {
 
 
 
-	let scheduleTop_html = {
+	let scheduleTop_html = `
 	<div class="slider_container">
 		<div class="slider_div" id="slider1">
 			<div class="slider">
@@ -308,11 +308,11 @@ $( document ).ready( function() {
 					  `).join('')}
 
 				</ul>
-				<a href="https://www.fotmob.com/ko" target="_blank" class="link">일정</a>
+				<a href="https://www.fotmob.com/ko" target="_blank" class="link"></a>
 			</div>
 		</div>
 	</div>
-	}
+	`
 	$('.navbar').append(scheduleTop_html);
 
 
