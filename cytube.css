@@ -26,7 +26,7 @@ pre {background-color:#333 !important; border:0 !important; font-size:14px !impo
 h1,h2,h3,h4,h5,h6 {text-shadow:none;}
 * {font-size:inherit !important;}
 body {background-color:var(--body) !important; color:#fff; line-height:1.58; font-size:15px; font-weight:500;}
-#cs-csstext, #cs-jstext, #cs-motdtext { font-family:"Pretendard" !important; line-height:1.7;}
+#cs-csstext, #cs-jstext, #cs-motdtext { font-family:"" !important; line-height:1.7;}
 code {background:transparent; color:#fff; font-size#emotelistbtn:13px; font-weight:bold;}
 .server-whisper {margin:10px 0; display:block; font-style:normal; font-size:11px !important; padding:5px 0; padding-left:0 !important; text-align:center !important;}
 input.form-control[type="text"], input.form-control[type="password"], inbodyput.form-control[type="email"], textarea.form-control {background:rgba(0,0,0,0.6) !important; border:0;}
@@ -52,7 +52,7 @@ input.form-control[type="text"], input.form-control[type="password"], inbodyput.
 table {background:transparent;}
 .form-control {border-color:#666; height:48px; color:#eee !important;}
 #footer {display:none;}
-.autocomplete-items div {font-family:"Pretendard" !important;}
+.autocomplete-items div {font-family:"" !important;}
 #jump-btn {display:none;}
 input::-webkit-input-placeholder {color:#ccc !important;}
 input:-ms-input-placeholder {color:#ccc !important;}
@@ -165,7 +165,7 @@ html#ft_17 #messagebuffer .server-msg-reconnect, html#ft_17 #messagebuffer .serv
 html#ft_17 #messagebuffer .server-msg-reconnect:before, html#ft_17 #messagebuffer .server-msg-disconnect:before {font-size:17px !important;}
 html#ft_17 .username strong {padding-top:10px;}
 html#ft_17 body {line-height:1.62;}
-body#ft_pretendard * {font-family:"Pretendard" !important;}
+body#ft_pretendard * {font-family:"" !important;}
 body#ft_malgun * {font-family:"Malgun Gothic" !important;}
 body#ft_nanum * {font-family:"Nanum Gothic" !important;}
 #content-wrap .glyphicon {font-family:'Glyphicons Halflings' !important;}
@@ -397,7 +397,7 @@ button.close {display:block;}
 
 /* 투표 */
 #pollwrap {font-size:14px; line-height:1.5;}
-#pollwrap * {font-family:"Pretendard" !important;}
+#pollwrap * {font-family:"" !important;}
 #pollwrap .well.active {position:fixed; width:calc(100% - 30px); max-width:360px; top:150px;  right:10px; margin:auto; background:rgba(239,83,80,0.8); backdrop-filter: blur(5px); box-shadow:0px 5px 15px rgba(0,0,0,0.6); border:0px solid #222 !important; border-radius:6px;}
 #pollwrap .well  h3 {margin-top:0; font-size:20px; margin-bottom:20px; font-weight:bold; padding-bottom:16px; border-bottom:1px solid rgba(255,255,255,0.3);}
 #pollwrap .well  h3:after {font-size:14px; opacity:.7; margin-left:5px;}
@@ -556,7 +556,7 @@ div.embed-responsive * {max-height:none;}
 
 /* 버튼 번역 */
 .btn-success, .btn-info {background:transparent !important;}
-* {font-family:"Pretendard" !important;}
+* {font-family:"" !important;}
 #userpl_save {border-radius:8px;}
 #cs-csssubmit, #cs-csspreview, #cs-emotes-newsubmit, #cs-emotes-export, #cs-emotes-import, #cs-jssubmit, #cs-permedit .btn, #cs-chatfilters-newsubmit, #cs-chatfilters-export, #cs-chatfilters-import, .modal-footer .btn, .qbtn-play, #queue_next, #queue_end, #login, #cs-chanlog-refresh, #cs-motdsubmit, #ce_queue_next, #ce_queue_end, #userpl_save, #cs-chanranks-mod, #cs-chanranks-adm, #cs-chanranks-owner , #cs-chanranks .btn-group  .dropdown-toggle
 {font-size:0px !important;}
