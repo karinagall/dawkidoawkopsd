@@ -26,7 +26,7 @@ pre {background-color:#333 !important; border:0 !important; font-size:14px !impo
 h1,h2,h3,h4,h5,h6 {text-shadow:none;}
 * {font-size:inherit !important;}
 body {background-color:var(--body) !important; color:#fff; line-height:1.58; font-size:15px; font-weight:500;}
-#cs-csstext, #cs-jstext, #cs-motdtext { font-family:"Pretendard" !important; line-height:1.7;}
+#cs-csstext, #cs-jstext, #cs-motdtext { font-family:"Malgun Gothic" !important; line-height:1.7;}
 code {background:transparent; color:#fff; font-size#emotelistbtn:13px; font-weight:bold;}
 .server-whisper {margin:10px 0; display:block; font-style:normal; font-size:11px !important; padding:5px 0; padding-left:0 !important; text-align:center !important;}
 input.form-control[type="text"], input.form-control[type="password"], inbodyput.form-control[type="email"], textarea.form-control {background:rgba(0,0,0,0.6) !important; border:0;}
@@ -52,7 +52,7 @@ input.form-control[type="text"], input.form-control[type="password"], inbodyput.
 table {background:transparent;}
 .form-control {border-color:#666; height:48px; color:#eee !important;}
 #footer {display:none;}
-.autocomplete-items div {font-family:"Pretendard" !important;}
+.autocomplete-items div {font-family:"Malgun Gothic" !important;}
 #jump-btn {display:none;}
 input::-webkit-input-placeholder {color:#ccc !important;}
 input:-ms-input-placeholder {color:#ccc !important;}
