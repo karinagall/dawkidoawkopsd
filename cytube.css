@@ -374,7 +374,7 @@ input#logout[type="submit"] {background:var(--main) !important; color:#fff !impo
 #chanjs-allow-prompt-buttons {margin-top:0 !important;}
 
 /* 버튼, 페이징 */
-input, button {font-family:"Pretendard" !important;}
+input, button {font-family:"" !important;}
 .btn:focus, .btn:active, .btn:active{outline:none !important; }
 .btn-primary, .btn-default {background:var(--main) !important; color:#fff; text-shadow:none; font-weight:bold;}
 .btn-primary:hover, .btn-default:hover {background:var(--main) !important; opacity:.95 !important;}
