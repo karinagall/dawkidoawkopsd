@@ -165,7 +165,7 @@ html#ft_17 #messagebuffer .server-msg-reconnect, html#ft_17 #messagebuffer .serv
 html#ft_17 #messagebuffer .server-msg-reconnect:before, html#ft_17 #messagebuffer .server-msg-disconnect:before {font-size:17px !important;}
 html#ft_17 .username strong {padding-top:10px;}
 html#ft_17 body {line-height:1.62;}
-body#ft_pretendard * {font-family:"Pretendard" !important;}
+body#ft_pretendard * {font-family:"Malgun Gothic" !important;}
 body#ft_malgun * {font-family:"Malgun Gothic" !important;}
 body#ft_nanum * {font-family:"Nanum Gothic" !important;}
 #content-wrap .glyphicon {font-family:'Glyphicons Halflings' !important;}
