@@ -151,7 +151,7 @@ $('#leftcontrols').append(btnopt_html);
 
 
 
-let command_html = `<ul class='list_rule'><li>!청소</li><li>!규칙</li><li>!카리나갤</li></ul>`
+let command_html = `<ul class='list_rule'><li>!결과</li><li>!청소</li><li>!규칙</li><li>!카리나갤</li></ul>`
 
 
 let preschedule_html = `
