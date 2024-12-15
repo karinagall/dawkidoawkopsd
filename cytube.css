@@ -363,7 +363,7 @@ input#logout[type="submit"] {background:var(--main) !important; color:#fff !impo
 /* 외부스크립트 */
 .profile-box {background:url("https://s10.gifyu.com/images/S5yPV.png") center no-repeat #000; background-size:260px !important;}
 #chanjs-allow-prompt > span {font-size:0 !important; display:block; color:#fff !important;}
-#chanjs-allow-prompt > span:after {content:"도타 갤러리 중계방에 오신 것을 환영합니다."; font-weight:bold; font-size:18px !important;}
+#chanjs-allow-prompt > span:after {content:"카리나 갤러리 중계방에 오신 것을 환영합니다."; font-weight:bold; font-size:18px !important;}
 #chanjs-allow-prompt .btn-danger {display:none;}
 #chanjs-allow {border-radius:100px; font-size:0 !important; padding:12px 40px !important; background:var(--main) !important; text-shadow:none !important; font-weight:bold;}
 #chanjs-allow-prompt .checkbox label {font-size:0 !important;}
