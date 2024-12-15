@@ -59,8 +59,8 @@ $(document).ready(function() {
 
 
 const schedule = [
-{ time: "2시", match: "벳붐 vs 팀 리퀴드" },
-{ time: "6시", match: "파리비전 vs 벳붐/리퀴드" },
+{ time: "", match: "" },
+{ time: "", match: "" },
 
 ];
 
