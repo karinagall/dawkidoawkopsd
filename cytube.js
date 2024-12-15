@@ -65,7 +65,17 @@ const schedule = [
 ];
 
 
+$(document).ready(function() {
+    /* Navbar title */
+    if (window.location.host == 'cytube.implying.fun') {
+        if (typeof channelName !== '카리나갤') $(".navbar-brand").html(channelName);
+        if (typeof faviconUrl !== 'undefined') $('<link id="chanfavicon" href="' + faviconUrl + '" type="image/x-icon" rel="shortcut icon" />').appendTo("head");
+    }
 
+    $('<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">').appendTo("head");
+    
+    $('<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">').appendTo("head");
+});
 
 
 let btnopt_html = `
