@@ -194,7 +194,7 @@ let preschedule_html = `
 			<button class="btn_chatmenu_close" onClick="$('#popup_preschedule').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
-		<iframe src="fotmob.com"></iframe>
+		<iframe src="https://www.fotmob.com/ko"></iframe>
 		</div>
 </div>
 `
@@ -981,11 +981,11 @@ function submit_check() {
       $("#clk_chat_clean").click();
     } else if (chatline.value == "!규칙") {
       $("#chatline").val("");
-      $("#messagebuffer").append("<ol class='list_rule'><li>좆목, 네임드화 및 갤러리내 고정닉을 언급하는 행위</li><li>수위를 넘어선 과도한 욕설 및 정치드립</li><li>경기 결과 스포일러</li><li>배팅충</li></ol>");
+      $("#messagebuffer").append("<ol class='list_rule'><li>너무 싸우지 마셈</li></ol>");
       $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
     } else if (chatline.value == "!카리나갤") {
       $("#chatline").val("");
-      window.open("https://gall.dcinside.com/mgallery/board/lists?id=karina0411");
+      window.open("https://gall.dcinside.com/mini/board/lists/?id=karina0411");
     } else if (chatline.value == "!명령어") {
       $("#chatline").val("");
       $("#messagebuffer").append(command_html);
