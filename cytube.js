@@ -58,14 +58,6 @@ $(document).ready(function() {
 });
 
 
-const schedule = [
-{ time: "2시", match: "벳붐 vs 팀 리퀴드" },
-{ time: "6시", match: "파리비전 vs 벳붐/리퀴드" },
-
-];
-
-
-
 
 
 let btnopt_html = `
@@ -81,10 +73,6 @@ let btnopt_html = `
         <li class="li_chat_expand">
                <a href="#" id="clk_chat_expand"><div class="icon"></div><span>전체화면으로 보기</span></a>
          </li>
-		<li class="li_chat_schedule">
-               <a href="#" id="clk_chat_schedule"><div class="icon"></div><span>최근경기결과</span></a>
-         </li>
-
 		<li class="li_chat_font">
                <a href="#" id="clk_chat_font"><div class="icon"></div><span>중계방설정</span></a>
          </li>
@@ -163,28 +151,7 @@ $('#leftcontrols').append(btnopt_html);
 
 
 
-let command_html = `<ul class='list_rule'><li>!일정</li><li>!결과</li><li>!청소</li><li>!규칙</li><li>!도갤</li></ul>`
-let todayschedule_html = `
-	<table class="schedule-table">
-  <thead>
-    <tr>
-      <th style="width:30%;">시간</th>
-      <th>경기</th>
-    </tr>
-  </thead>
-  <tbody>
-    ${schedule.map(game => `
-	  <tr>
-		<td>${game.time}</td>
-		<td>${game.match}</td>
-	  </tr>
-	`).join('')}
-  </tbody>
-</table>
-
-<p>경기 일정은 예상 시간으로 당겨질 수 있습니다.</p>
-
-`
+let command_html = `<ul class='list_rule'><li>!청소</li><li>!규칙</li><li>!카리나갤</li></ul>`
 
 
 let preschedule_html = `
@@ -194,7 +161,7 @@ let preschedule_html = `
 			<button class="btn_chatmenu_close" onClick="$('#popup_preschedule').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
-		<iframe src="https://s3.ap-northeast-2.amazonaws.com/cytube.v2/index.html?ver=1.1"></iframe>
+		<iframe src="https://www.fotmob.com/ko?ver=1.1"></iframe>
 		</div>
 </div>
 `
