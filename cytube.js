@@ -165,7 +165,7 @@ let todayschedule_html = `
 		</div>
 </div>
 `
-$('body').append(preschedule_html);
+$('body').append(todayschedule_html);
 
 
 
