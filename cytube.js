@@ -1000,6 +1000,7 @@ function submit_check() {
       $("#chatline").val("");
       $("#messagebuffer").append(command_html);
       $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
+    }
 
   }, 0);
   
