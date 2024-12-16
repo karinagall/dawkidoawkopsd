@@ -197,7 +197,7 @@ let todayschedule_html = `
 `
 
 let dchaechuk_html = `
-<div id="popup_dchaechuk" class="popup_iframe" style="display:none; max-width:720px;">
+<div id="popup_dchaechuk" class="popup_iframe" style="display:none; background-color: #ffffff; max-width:720px;">
 		<div class="popup_title">
 			<h6>디시 해축 갤<h6>
 			<button class="btn_chatmenu_close" onClick="$('#popup_dchaechuk').hide();">닫기</button>
