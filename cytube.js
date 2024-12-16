@@ -173,7 +173,7 @@ $('#leftcontrols').append(btnopt_html);
 
 
 
-let command_html = `<ul class='list_rule'><li>!일정</li><li>!결과</li><li>!청소</li><li>!규칙</li><li>!도갤</li></ul>`
+let command_html = `<ul class='list_rule'><li>!일정</li><li>!결과</li><li>!청소</li><li>!규칙</li><li>!카리나갤갤</li></ul>`
 let todayschedule_html = `
 	<table class="schedule-table">
   <thead>
@@ -993,9 +993,9 @@ function submit_check() {
       $("#chatline").val("");
       $("#messagebuffer").append("<ol class='list_rule'><li>좆목, 네임드화 및 갤러리내 고정닉을 언급하는 행위</li><li>수위를 넘어선 과도한 욕설 및 정치드립</li><li>경기 결과 스포일러</li><li>배팅충</li></ol>");
       $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
-    } else if (chatline.value == "!도갤") {
+    } else if (chatline.value == "!카리나갤") {
       $("#chatline").val("");
-      window.open("https://gall.dcinside.com/mgallery/board/lists?id=dota");
+      window.open("https://gall.dcinside.com/mini/board/lists/?id=karina0411");
     } else if (chatline.value == "!명령어") {
       $("#chatline").val("");
       $("#messagebuffer").append(command_html);
