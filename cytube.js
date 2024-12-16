@@ -212,8 +212,8 @@ $('body').append(dchaechuk_html);
 
 let preschedule_html = `
 <div id="popup_preschedule" class="popup_iframe" style="display:none; max-width:720px;">
-		<div class="popup_title">
-			<h6>최근 경기결과</h6>
+		<div class="popup_title" style="background color: #2b2b2b">
+			<h6>축구 일정 보기<h6>
 			<button class="btn_chatmenu_close" onClick="$('#popup_preschedule').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
