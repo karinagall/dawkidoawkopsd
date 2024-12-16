@@ -231,6 +231,7 @@ let fmkorea_html = `
 		</div>
 		<div class="popup_cont">
 		<iframe src="https://www.fmkorea.com/"></iframe>
+  		<div style='background-color: white'>
 		</div>
 </div>
 `
