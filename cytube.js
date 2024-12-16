@@ -207,7 +207,7 @@ let dchaechuk_html = `
 		</div>
 </div>
 `
-$('body').append(preschedule_html);
+$('body').append(dchaechuk_html);
 
 let preschedule_html = `
 <div id="popup_preschedule" class="popup_iframe" style="display:none; max-width:720px;">
@@ -222,7 +222,7 @@ let preschedule_html = `
 `
 $('body').append(preschedule_html);
 
-let preschedule_html = `
+let fmkorea_html = `
 <div id="popup_fmkorea" class="popup_iframe" style="display:none; max-width:720px;">
 		<div class="popup_title">
 			<h6>에펨코리아/h6>
@@ -233,7 +233,7 @@ let preschedule_html = `
 		</div>
 </div>
 `
-$('body').append(preschedule_html);
+$('body').append(fmkorea_html);
 
 
 
