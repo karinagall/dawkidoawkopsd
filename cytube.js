@@ -226,7 +226,7 @@ $('body').append(preschedule_html);
 let fmkorea_html = `
 <div id="popup_fmkorea" class="popup_iframe" style="display:none; max-width:720px;">
 		<div class="popup_title"><div style='background-color: #2b2b2b'>
-			<h6>에펨코리아</h6>
+			<h6>      에펨코리아</h6>
 			<button class="btn_chatmenu_close" onClick="$('#popup_fmkorea').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
