@@ -204,6 +204,7 @@ let dchaechuk_html = `
 		</div>
 		<div class="popup_cont">
 		<iframe src="https://gall.dcinside.com/board/lists?id=football_new9"></iframe>
+  		<div style='background-color: white'>
 		</div>
 </div>
 `
