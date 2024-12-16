@@ -200,13 +200,13 @@ let todayschedule_html = `
 let dchaechuk_html = `
 <div id="popup_dchaechuk" class="popup_iframe" style="display:none; max-width:720px;">
 		<div class="popup_title">
-			<h6>디시 해축 갤h6>
+			<h6>디시 해축 갤<h6>
 			<button class="btn_chatmenu_close" onClick="$('#popup_dchaechuk').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
 		<iframe src="https://m.dcinside.com/board/football_new9"></iframe>
-  		<div style='background-color: white'>
 		</div>
+<div style='background-color: white'>
 </div>
 `
 $('body').append(dchaechuk_html);
@@ -227,13 +227,13 @@ $('body').append(preschedule_html);
 let fmkorea_html = `
 <div id="popup_fmkorea" class="popup_iframe" style="display:none; max-width:720px;">
 		<div class="popup_title">
-			<h6>에펨코리아/h6>
+			<h6>에펨코리아</h6>
 			<button class="btn_chatmenu_close" onClick="$('#popup_fmkorea').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
 		<iframe src="https://www.fmkorea.com/"></iframe>
-  		<div style='background-color: white'>
 		</div>
+<div style='background-color: white'>
 </div>
 `
 $('body').append(fmkorea_html);
