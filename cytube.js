@@ -196,6 +196,18 @@ let todayschedule_html = `
 
 `
 
+let dchaechuk_html = `
+<div id="popup_dchaechuk" class="popup_iframe" style="display:none; max-width:720px;">
+		<div class="popup_title">
+			<h6>디시 해축 갤h6>
+			<button class="btn_chatmenu_close" onClick="$('#popup_dchaechuk').hide();">닫기</button>
+		</div>
+		<div class="popup_cont">
+		<iframe src="https://gall.dcinside.com/board/lists?id=football_new9"></iframe>
+		</div>
+</div>
+`
+$('body').append(preschedule_html);
 
 let preschedule_html = `
 <div id="popup_preschedule" class="popup_iframe" style="display:none; max-width:720px;">
@@ -210,7 +222,18 @@ let preschedule_html = `
 `
 $('body').append(preschedule_html);
 
-
+let preschedule_html = `
+<div id="popup_fmkorea" class="popup_iframe" style="display:none; max-width:720px;">
+		<div class="popup_title">
+			<h6>에펨코리아/h6>
+			<button class="btn_chatmenu_close" onClick="$('#popup_fmkorea').hide();">닫기</button>
+		</div>
+		<div class="popup_cont">
+		<iframe src="https://www.fmkorea.com/"></iframe>
+		</div>
+</div>
+`
+$('body').append(preschedule_html);
 
 
 
@@ -985,6 +1008,14 @@ function submit_check() {
     } else if (chatline.value == "!전체일정") {
       $("#chatline").val("");
       $("#popup_schedule").show(300);
+      $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
+    } else if (chatline.value == "!해축갤") {
+      $("#chatline").val("");
+      $("#popup_dchaechuk").show(300);
+      $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
+    } else if (chatline.value == "!펨코") {
+      $("#chatline").val("");
+      $("#popup_fmkorea").show(300);
       $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
     } else if (chatline.value == "!청소") {
       $("#chatline").val("");
