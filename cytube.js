@@ -978,7 +978,7 @@ function submit_check() {
   var chatline = document.getElementById("chatline");
 
   setTimeout(function() {
-    } else if (chatline.value == "!일정") {
+    if (chatline.value == "!일정") {
       $("#chatline").val("");
       $("#popup_preschedule").show(300);
       $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
