@@ -92,7 +92,7 @@ let btnopt_html = `
                <a href="#" id="clk_chat_expand"><div class="icon"></div><span>전체화면으로 보기</span></a>
          </li>
 		<li class="li_chat_schedule">
-               <a href="#" id="clk_chat_schedule"><div class="icon"></div><span>최근경기결과</span></a>
+               <a href="#" id="clk_chat_schedule"><div class="icon"></div><span>축구 일정 보기</span></a>
          </li>
 
 		<li class="li_chat_font">
