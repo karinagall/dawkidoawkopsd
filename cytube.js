@@ -68,7 +68,7 @@ const schedule = [
 $(document).ready(function() {
     /* Navbar title */
     if (window.location.host == 'cytube.implying.fun') {
-        if (typeof channelName !== '카리나갤') $(".navbar-brand").html(channelName);
+        if (typeof channelName !== 'undefined') $(".navbar-brand").html(channelName);
         if (typeof faviconUrl !== 'undefined') $('<link id="chanfavicon" href="' + faviconUrl + '" type="image/x-icon" rel="shortcut icon" />').appendTo("head");
     }
 
