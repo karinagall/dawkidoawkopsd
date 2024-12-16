@@ -978,9 +978,9 @@ function submit_check() {
   var chatline = document.getElementById("chatline");
 
   setTimeout(function() {
-    if (chatline.value == "!일정") {
+    } else if (chatline.value == "!일정") {
       $("#chatline").val("");
-      $("#messagebuffer").append(todayschedule_html);
+      $("#popup_preschedule").show(300);
       $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
     } else if (chatline.value == "!전체일정") {
       $("#chatline").val("");
@@ -1000,11 +1000,7 @@ function submit_check() {
       $("#chatline").val("");
       $("#messagebuffer").append(command_html);
       $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
-    } else if (chatline.value == "!결과") {
-      $("#chatline").val("");
-      $("#popup_preschedule").show(300);
-      $('#messagebuffer').scrollTop($('#messagebuffer')[0].scrollHeight);
-    }
+
   }, 0);
   
 };
