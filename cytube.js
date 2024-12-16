@@ -173,7 +173,7 @@ $('#leftcontrols').append(btnopt_html);
 
 
 
-let command_html = `<ul class='list_rule'><li>!일정</li><li>!청소</li><li>!규칙</li><li>!카리나갤갤</li></ul>`
+let command_html = `<ul class='list_rule'><li>!일정</li><li>!청소</li><li>!규칙</li><li>!카리나갤</li><li>!해축갤</li><li>!펨코</li></ul>`
 let todayschedule_html = `
 	<table class="schedule-table">
   <thead>
