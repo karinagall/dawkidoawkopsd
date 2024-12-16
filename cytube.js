@@ -81,11 +81,11 @@ $(document).ready(function() {
 let btnopt_html = `
 <button id="btn_chat_opt"></button>
 <div id="popup_chatmenu" class="popup_chatmenu">
-    <div class="popup_title"><div style='background-color: #00ff00'>
+    <div class="popup_title"><div style='background-color: #2b2b2b'>
         <h6>중계방 설정</h6>
         <button id="btn_chatmenu_close" class="btn_chatmenu_close">닫기</button>
     </div>
-    <ul class="list">
+    <ul class="list"><div style='background-color: #2b2b2b'>
         <li class="li_chat_popup"><a href="#" id="clk_chat_popup"><div class="icon"></div><span>팝업으로 보기</span></a></li>
         <li class="li_chat_hide" style="display:none;"><a href="#" id="clk_chat_hide"><div class="icon"></div><span>채팅 숨기기</span></a></li>
         <li class="li_chat_expand">
