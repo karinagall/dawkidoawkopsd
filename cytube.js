@@ -81,7 +81,7 @@ $(document).ready(function() {
 let btnopt_html = `
 <button id="btn_chat_opt"></button>
 <div id="popup_chatmenu" class="popup_chatmenu">
-    <div class="popup_title">
+    <div class="popup_title"><div style='background-color: #00ff00'>
         <h6>중계방 설정</h6>
         <button id="btn_chatmenu_close" class="btn_chatmenu_close">닫기</button>
     </div>
@@ -109,7 +109,6 @@ let btnopt_html = `
          </li>
          
 	</ul>
-<div style='background-color: #00ff00'>
 </div>
 
 
