@@ -203,7 +203,7 @@ let dchaechuk_html = `
 			<button class="btn_chatmenu_close" onClick="$('#popup_dchaechuk').hide();">닫기</button>
 		</div>
 		<div class="popup_cont">
-		<iframe src="https://gall.dcinside.com/board/lists?id=football_new9"></iframe>
+		<iframe src="https://m.dcinside.com/board/football_new9"></iframe>
   		<div style='background-color: white'>
 		</div>
 </div>
